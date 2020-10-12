@@ -12,12 +12,11 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container navbar-container">
+    <div class="container">
       <div class="col-4 col-md-2">
-        <button type="button" id="highscore-button" class="btn btn-info">View High Scores</button>
+        <button type="button" id="highscore" class="btn btn-dark">View High Scores</button>
       </div>
-      <div class="col-3 col-md-7"></div>
-      <div class="col-5 col-md-3">
+      <div class="col-4 col-md-2">
         <form>
           <label for="time-remaining" class="col-form-label">Time Remaining: <span id="timer"></span></label>
         </form>
@@ -25,7 +24,10 @@
     </div>
   </nav>
 
-  <div id="content">
+  <div id="content" class="container">
+    <h2 id="answer" class="marginauto"></h2>
+    <h1 id="questions" class="marginauto"></h1>
+    <div id="answers" class="marginauto"></div>
   </div>
 
 
