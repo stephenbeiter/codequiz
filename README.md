@@ -5,7 +5,7 @@ A timed coding quiz that allows users to save their initials and scores to their
 
 ## Built With
 * HTML
-* CSS
+* CSS/Bootstrap
 * JavaScript
 
 ## URL
